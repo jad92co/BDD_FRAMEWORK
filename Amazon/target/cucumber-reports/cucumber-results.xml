@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.519">
-    <testcase classname="SearchBox Functionality check" name="Amazon searchBox functionality check with valid product" time="12.585">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="53.813">
+    <testcase classname="SearchBox Functionality check" name="Amazon searchBox functionality check with valid product" time="20.283">
         <system-out>
             <![CDATA[Given I am on amazon homePage...............................................passed
 And I enter "Hand Sanitizer" in searchBox...................................passed
+When I click on search Button...............................................passed
+Then I should see "Hand Sanitizer" is properly appear.......................passed
+But I should not see "mobile" is appear.....................................passed
+And I verify "Amazon.com : Hand Sanitizer" in product title.................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="SearchBox Functionality check" name="Amazon searchBox functionality check with valid product1" time="18.422">
+        <failure message="Product does not match expected:&lt;&quot;Mask[1]&quot;&gt; but was:&lt;&quot;Mask[]&quot;&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am on amazon homePage...............................................passed
+And I enter "Mask" in searchBox.............................................passed
+When I click on search Button...............................................passed
+Then I should see "Mask1" is properly appear................................failed
+But I should not see "mobile" is appear.....................................skipped
+And I verify "Amazon.com : Mask" in product title...........................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: Product does not match expected:<"Mask[1]"> but was:<"Mask[]">
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at homepage.HomePage.verifySearchResult(HomePage.java:30)
+	at stepDefinitions.HomePageStepDefinition.i_should_see_hand_sanitizer_is_properly_appear(HomePageStepDefinition.java:64)
+	at ✽.I should see "Mask1" is properly appear(file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:17)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="SearchBox Functionality check" name="Amazon searchBox functionality check with valid product2" time="14.104">
+        <system-out>
+            <![CDATA[Given I am on amazon homePage...............................................passed
+And I enter "MacBook" in searchBox..........................................passed
+When I click on search Button...............................................passed
+Then I should see "MacBook" is properly appear..............................passed
+But I should not see "mobile" is appear.....................................passed
+And I verify "Amazon.com : MacBook" in product title........................passed
 ]]>
         </system-out>
     </testcase>

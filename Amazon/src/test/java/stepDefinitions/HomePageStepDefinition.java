@@ -3,6 +3,7 @@ package stepDefinitions;
 import common.WebAPI;
 import homepage.HomePage;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
@@ -19,7 +20,7 @@ public class HomePageStepDefinition  extends WebAPI {
     static HomePage homePage;
 
     // Cucumber Hook
-    @After
+    @AfterStep
     public void tearDown(Scenario scenario){
         if (scenario.isFailed()){
             // Take a screenshot
@@ -46,7 +47,6 @@ public class HomePageStepDefinition  extends WebAPI {
 
     }
 
-
     @And("I enter {string} in searchBox")
     public void i_enter_in_search_box(String productName) {
         // Action method
@@ -56,23 +56,29 @@ public class HomePageStepDefinition  extends WebAPI {
 
     @When("I click on search Button")
     public void i_click_on_search_button() {
-
+    homePage.clickOnSearchButton();
     }
 
-    @Then("I should see Hand Sanitizer is properly appear")
-    public void i_should_see_hand_sanitizer_is_properly_appear() {
-
+    @Then("I should see {string} is properly appear")
+    public void i_should_see_is_properly_appear(String expectedText) {
+    homePage.verifySearchResult("\""+expectedText+"\"");
     }
 
-    @Then("I should not see mobile is appear")
-    public void i_should_not_see_mobile_is_appear() {
-
+    @Then("I should not see {string} is appear")
+    public void i_should_not_see_is_appear(String expectedText) {
+        homePage.verifySearchResultNotMatch("\""+expectedText+"\"");
     }
 
-    @Then("I verify Hand Sanitizer in product title")
-    public void i_verify_hand_sanitizer_in_product_title() {
-
+    @Then("I verify {string} in product title")
+    public void i_verify_in_product_title(String expectedText) {
+        // Amazon.com : hand sanitizer
+        homePage.verifyPageTitle(expectedText);
     }
+
+
+
+
+
 
 
 }

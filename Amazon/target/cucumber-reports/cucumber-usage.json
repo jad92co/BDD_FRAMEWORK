@@ -5,13 +5,21 @@
       {
         "name": "I am on amazon homePage",
         "aggregatedDurations": {
-          "median": 9.4290308,
-          "average": 9.4290308
+          "median": 7.5355596,
+          "average": 8.239020533
         },
         "durations": [
           {
-            "duration": 9.4290308,
+            "duration": 9.8189746,
             "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:5"
+          },
+          {
+            "duration": 7.5355596,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:14"
+          },
+          {
+            "duration": 7.3625274,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:23"
           }
         ]
       }
@@ -23,13 +31,149 @@
       {
         "name": "I enter \"Hand Sanitizer\" in searchBox",
         "aggregatedDurations": {
-          "median": 0.8767141,
-          "average": 0.8767141
+          "median": 0.7745767,
+          "average": 0.7745767
         },
         "durations": [
           {
-            "duration": 0.8767141,
+            "duration": 0.7745767,
             "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Mask\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.669855,
+          "average": 0.669855
+        },
+        "durations": [
+          {
+            "duration": 0.669855,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"MacBook\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.8245508,
+          "average": 0.8245508
+        },
+        "durations": [
+          {
+            "duration": 0.8245508,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search Button",
+    "steps": [
+      {
+        "name": "I click on search Button",
+        "aggregatedDurations": {
+          "median": 6.4228903,
+          "average": 5.7218089
+        },
+        "durations": [
+          {
+            "duration": 6.4228903,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:7"
+          },
+          {
+            "duration": 6.7739634,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:16"
+          },
+          {
+            "duration": 3.968573,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see {string} is properly appear",
+    "steps": [
+      {
+        "name": "I should see \"Hand Sanitizer\" is properly appear",
+        "aggregatedDurations": {
+          "median": 0.6532204,
+          "average": 0.6532204
+        },
+        "durations": [
+          {
+            "duration": 0.6532204,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "I should see \"MacBook\" is properly appear",
+        "aggregatedDurations": {
+          "median": 0.444746,
+          "average": 0.444746
+        },
+        "durations": [
+          {
+            "duration": 0.444746,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should not see {string} is appear",
+    "steps": [
+      {
+        "name": "I should not see \"mobile\" is appear",
+        "aggregatedDurations": {
+          "median": 0.1084792,
+          "average": 0.1084792
+        },
+        "durations": [
+          {
+            "duration": 0.1360053,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:9"
+          },
+          {
+            "duration": 0.0809531,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} in product title",
+    "steps": [
+      {
+        "name": "I verify \"Amazon.com : Hand Sanitizer\" in product title",
+        "aggregatedDurations": {
+          "median": 0.0089956,
+          "average": 0.0089956
+        },
+        "durations": [
+          {
+            "duration": 0.0089956,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:10"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"Amazon.com : MacBook\" in product title",
+        "aggregatedDurations": {
+          "median": 0.0119955,
+          "average": 0.0119955
+        },
+        "durations": [
+          {
+            "duration": 0.0119955,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:28"
           }
         ]
       }

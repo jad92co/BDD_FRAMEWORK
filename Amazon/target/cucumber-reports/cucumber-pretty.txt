@@ -3,3 +3,34 @@
 Scenario: Amazon searchBox functionality check with valid product # src/test/java/features/HomePage.feature:4
   Given I am on amazon homePage                                   # stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page()
   And I enter "Hand Sanitizer" in searchBox                       # stepDefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click on search Button                                   # stepDefinitions.HomePageStepDefinition.i_click_on_search_button()
+  Then I should see "Hand Sanitizer" is properly appear           # stepDefinitions.HomePageStepDefinition.i_should_see_hand_sanitizer_is_properly_appear(java.lang.String)
+  But I should not see "mobile" is appear                         # stepDefinitions.HomePageStepDefinition.i_should_not_see_mobile_is_appear(java.lang.String)
+  And I verify "Amazon.com : Hand Sanitizer" in product title     # stepDefinitions.HomePageStepDefinition.i_verify_hand_sanitizer_in_product_title(java.lang.String)
+
+@mahmud @RegressionTest
+Scenario: Amazon searchBox functionality check with valid product1 # src/test/java/features/HomePage.feature:13
+  Given I am on amazon homePage                                    # stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page()
+  And I enter "Mask" in searchBox                                  # stepDefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click on search Button                                    # stepDefinitions.HomePageStepDefinition.i_click_on_search_button()
+  Then I should see "Mask1" is properly appear                     # stepDefinitions.HomePageStepDefinition.i_should_see_hand_sanitizer_is_properly_appear(java.lang.String)
+      org.junit.ComparisonFailure: Product does not match expected:<"Mask[1]"> but was:<"Mask[]">
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at homepage.HomePage.verifySearchResult(HomePage.java:30)
+	at stepDefinitions.HomePageStepDefinition.i_should_see_hand_sanitizer_is_properly_appear(HomePageStepDefinition.java:64)
+	at ✽.I should see "Mask1" is properly appear(file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:17)
+
+
+    Embedding demo1 [image/png 403208 bytes]
+
+  But I should not see "mobile" is appear                          # stepDefinitions.HomePageStepDefinition.i_should_not_see_mobile_is_appear(java.lang.String)
+  And I verify "Amazon.com : Mask" in product title                # stepDefinitions.HomePageStepDefinition.i_verify_hand_sanitizer_in_product_title(java.lang.String)
+
+@test @IntegrationTest
+Scenario: Amazon searchBox functionality check with valid product2 # src/test/java/features/HomePage.feature:22
+  Given I am on amazon homePage                                    # stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page()
+  And I enter "MacBook" in searchBox                               # stepDefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click on search Button                                    # stepDefinitions.HomePageStepDefinition.i_click_on_search_button()
+  Then I should see "MacBook" is properly appear                   # stepDefinitions.HomePageStepDefinition.i_should_see_hand_sanitizer_is_properly_appear(java.lang.String)
+  But I should not see "mobile" is appear                          # stepDefinitions.HomePageStepDefinition.i_should_not_see_mobile_is_appear(java.lang.String)
+  And I verify "Amazon.com : MacBook" in product title             # stepDefinitions.HomePageStepDefinition.i_verify_hand_sanitizer_in_product_title(java.lang.String)

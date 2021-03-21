@@ -1,12 +1,14 @@
 package homepage;
 
+import common.WebAPI;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 import static homepage.HomePageWebElement.*;
 
-public class HomePage {
+public class HomePage extends WebAPI {
 
 // Action Method class
 
@@ -19,7 +21,23 @@ public class HomePage {
         searchBox.sendKeys(productName);
     }
 
+    public void clickOnSearchButton(){
+        searchButton.click();
+    }
 
+    public void verifySearchResult(String expectedText){
+        String actualText=searchText.getText();
+        Assert.assertEquals("Product does not match",expectedText,actualText);
+    }
 
+    public void verifySearchResultNotMatch(String expectedText){
+        String actualText=searchText.getText();
+        Assert.assertNotEquals("Product does not match",expectedText,actualText);
+    }
+
+    public void verifyPageTitle(String expectedText){
+        String actualText=driver.getTitle();
+        Assert.assertEquals("Page Title not match",expectedText,actualText);
+    }
 
 }
