@@ -124,6 +124,10 @@ public class WebAPI {
     public static String sauceLabs_userName = "";
     public static String sauceLabs_accessKey = "";
 
+    public void openBrowser(String url) throws IOException {
+        setUp(false,"browserStack","windows","10","chrome","89",url);
+    }
+
 
     @Parameters({"useCloudEnv", "cloudEnvName", "OS", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
@@ -199,7 +203,7 @@ public class WebAPI {
         return driver;
     }
 
-    @AfterMethod(alwaysRun = true)
+//    @AfterMethod(alwaysRun = true)
     public void cleanUp() {
         //driver.close();
         driver.quit();

@@ -1,0 +1,38 @@
+[
+  {
+    "source": "I am on amazon homePage",
+    "steps": [
+      {
+        "name": "I am on amazon homePage",
+        "aggregatedDurations": {
+          "median": 9.4290308,
+          "average": 9.4290308
+        },
+        "durations": [
+          {
+            "duration": 9.4290308,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"Hand Sanitizer\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.8767141,
+          "average": 0.8767141
+        },
+        "durations": [
+          {
+            "duration": 0.8767141,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

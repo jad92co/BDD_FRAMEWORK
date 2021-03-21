@@ -1,0 +1,5 @@
+
+@smokeTest
+Scenario: Amazon searchBox functionality check with valid product # src/test/java/features/HomePage.feature:4
+  Given I am on amazon homePage                                   # stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page()
+  And I enter "Hand Sanitizer" in searchBox                       # stepDefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)

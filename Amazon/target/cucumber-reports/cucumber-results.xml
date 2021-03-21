@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.519">
+    <testcase classname="SearchBox Functionality check" name="Amazon searchBox functionality check with valid product" time="12.585">
+        <system-out>
+            <![CDATA[Given I am on amazon homePage...............................................passed
+And I enter "Hand Sanitizer" in searchBox...................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

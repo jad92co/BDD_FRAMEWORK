@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-21T00:44:47.666Z",
+        "line": 4,
+        "name": "Amazon searchBox functionality check with valid product",
+        "description": "",
+        "id": "searchbox-functionality-check;amazon-searchbox-functionality-check-with-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1957300000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2998200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9429030800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 112936900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on amazon homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 876714100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I enter \"Hand Sanitizer\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hand Sanitizer\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "SearchBox Functionality check",
+    "description": "",
+    "id": "searchbox-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  }
+]
