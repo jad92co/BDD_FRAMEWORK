@@ -5,175 +5,121 @@
       {
         "name": "I am on amazon homePage",
         "aggregatedDurations": {
-          "median": 7.5355596,
-          "average": 8.239020533
+          "median": 11.3434826,
+          "average": 11.3434826
         },
         "durations": [
           {
-            "duration": 9.8189746,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:5"
-          },
-          {
-            "duration": 7.5355596,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:14"
-          },
-          {
-            "duration": 7.3625274,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:23"
+            "duration": 11.3434826,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/DataTableExample.feature:4"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter {string} in searchBox",
+    "source": "I click on Account \u0026 Lists",
     "steps": [
       {
-        "name": "I enter \"Hand Sanitizer\" in searchBox",
+        "name": "I click on Account \u0026 Lists",
         "aggregatedDurations": {
-          "median": 0.7745767,
-          "average": 0.7745767
+          "median": 1.8809447,
+          "average": 1.8809447
         },
         "durations": [
           {
-            "duration": 0.7745767,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:6"
-          }
-        ]
-      },
-      {
-        "name": "I enter \"Mask\" in searchBox",
-        "aggregatedDurations": {
-          "median": 0.669855,
-          "average": 0.669855
-        },
-        "durations": [
-          {
-            "duration": 0.669855,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:15"
-          }
-        ]
-      },
-      {
-        "name": "I enter \"MacBook\" in searchBox",
-        "aggregatedDurations": {
-          "median": 0.8245508,
-          "average": 0.8245508
-        },
-        "durations": [
-          {
-            "duration": 0.8245508,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:24"
+            "duration": 1.8809447,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/DataTableExample.feature:8"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on search Button",
+    "source": "I enter Email or mobile phone number",
     "steps": [
       {
-        "name": "I click on search Button",
+        "name": "I enter Email or mobile phone number",
         "aggregatedDurations": {
-          "median": 6.4228903,
-          "average": 5.7218089
+          "median": 0.9359746,
+          "average": 0.9359746
         },
         "durations": [
           {
-            "duration": 6.4228903,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:7"
-          },
-          {
-            "duration": 6.7739634,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:16"
-          },
-          {
-            "duration": 3.968573,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:25"
+            "duration": 0.9359746,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/DataTableExample.feature:9"
           }
         ]
       }
     ]
   },
   {
-    "source": "I should see {string} is properly appear",
+    "source": "I click on continue button",
     "steps": [
       {
-        "name": "I should see \"Hand Sanitizer\" is properly appear",
+        "name": "I click on continue button",
         "aggregatedDurations": {
-          "median": 0.6532204,
-          "average": 0.6532204
+          "median": 1.3262692,
+          "average": 1.3262692
         },
         "durations": [
           {
-            "duration": 0.6532204,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:8"
-          }
-        ]
-      },
-      {
-        "name": "I should see \"MacBook\" is properly appear",
-        "aggregatedDurations": {
-          "median": 0.444746,
-          "average": 0.444746
-        },
-        "durations": [
-          {
-            "duration": 0.444746,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:26"
+            "duration": 1.3262692,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/DataTableExample.feature:12"
           }
         ]
       }
     ]
   },
   {
-    "source": "I should not see {string} is appear",
+    "source": "I enter password",
     "steps": [
       {
-        "name": "I should not see \"mobile\" is appear",
+        "name": "I enter password",
         "aggregatedDurations": {
-          "median": 0.1084792,
-          "average": 0.1084792
+          "median": 0.1709027,
+          "average": 0.1709027
         },
         "durations": [
           {
-            "duration": 0.1360053,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:9"
-          },
-          {
-            "duration": 0.0809531,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:27"
+            "duration": 0.1709027,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/DataTableExample.feature:13"
           }
         ]
       }
     ]
   },
   {
-    "source": "I verify {string} in product title",
+    "source": "I click on signIn Button",
     "steps": [
       {
-        "name": "I verify \"Amazon.com : Hand Sanitizer\" in product title",
+        "name": "I click on signIn Button",
         "aggregatedDurations": {
-          "median": 0.0089956,
-          "average": 0.0089956
+          "median": 0.3308192,
+          "average": 0.3308192
         },
         "durations": [
           {
-            "duration": 0.0089956,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:10"
+            "duration": 0.3308192,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/DataTableExample.feature:16"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "source": "I should see {string}",
+    "steps": [
       {
-        "name": "I verify \"Amazon.com : MacBook\" in product title",
+        "name": "I should see \"There was a problem\"",
         "aggregatedDurations": {
-          "median": 0.0119955,
-          "average": 0.0119955
+          "median": 1.104133,
+          "average": 1.104133
         },
         "durations": [
           {
-            "duration": 0.0119955,
-            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/HomePage.feature:28"
+            "duration": 1.104133,
+            "location": "file:///D:/SOFTWARE%20ENGINEERING/PROJECTS/IdeaProjects/PNT/LearnBDDWebAutomationFramework_WeekendAfternoon_Selenium_NY_Fall2020/Amazon/src/test/java/features/DataTableExample.feature:17"
           }
         ]
       }
